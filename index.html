@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Periodic table</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        .table{
+            width: 800px;
+            /* height: 400px; */
+            /* border: 2px solid rebeccapurple; */
+            
+            
+        }
+        h1{
+            color:rgba(255,255,255,1);
+            text-align: center;
+            background-color: yellow;
+            text-shadow: 3px 2px 1px rgb(40, 37, 37);
+            margin: 0;
+            padding: 15px 5px;
+            font-size: 3rem;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            overflow: hidden;
+            z-index: 1;
+        }
+        table{
+            width: 100%;
+            /* border-collapse: collapse; */
+            /* background-color: blanchedalmond; */
+            border-collapse: collapse;
+        }
+       
+        td{
+            text-align:center;
+        
+        }
+        .right{
+            text-align: right;
+            empty-cells: hide;
+        }
+        .margin{
+            margin-left: 2px;
+        }
+        .first{
+            background-color: rgb(147, 147, 248);
+        }
+        .second{
+            background-color: rgb(120, 16, 123);
+        }
+        .lathnideActride{
+            background-color:rgb(224, 114, 155) ;
+        }
+        .hidden{
+           empty-cells: hide;
+        }
+        .red{
+            background-color: rgb(253, 15, 27);
+        }
+        .G13{
+            background-color: rgb(246, 103, 8);
+        }
+        .B13{
+            background-color: rgb(230, 207, 3);
+        }
+        .H{
+            background-color: rgb(40, 242, 242);
+        }
+        .NM{
+            background-color: rgba(251, 13, 179, 0.989);
+        }
+        .G17{
+            background-color: rgb(70, 24, 251);
+        }
+        .Nobel{
+            background-color: rgb(22, 140, 100);
+        }
+        .NH{
+            background-color: rgba(227, 196, 233, 0.989);
+        }
+        .lathnide{
+            background-color: rgb(123, 118, 128);
+        }
+        .Actride{
+            background-color: rgb(236, 152, 26);
+        }
+    </style>
+</head>
+<body>
+    <div class="table">
+        <h1> The Periodic Table</h1>
+        <table border="">
+          <tr>
+            <td class="H">H</td>
+            <td class="hidden" colspan="16"></td>
+            <td class="Nobel">He</td>
+            
+          </tr>
+        <tr>
+            <td class="first">Li</td>
+            <td class="second">Be</td>
+            <td class="hidden" colspan="10"></td>
+            <td class="B13">B</td>
+            <td class="NM">C</td>
+            <td class="NM">N</td>
+            <td class="NM">O</td>
+            <td class="G17">F</td>
+            <td class="Nobel">Ne</td>
+        </tr>
+        <tr>
+            <td class="first">Na</td>
+            <td class="second">Mg</td>
+            <td class="hidden" colspan="10"></td>
+            <td class="G13">Al</td>
+            <td class="B13">Si</td>
+            <td class="NM">P</td>
+            <td class="NM">S</td>
+            <td class="G17">Cl</td>
+            <td class="Nobel">Ar</td>
+        </tr>
+        <tr>
+            <td class="first">K</td>
+            <td class="second">Ca</td>
+            <td class="red">Sc</td>
+            <td class="red">Ti</td>
+            <td class="red">V</td>
+            <td class="red">Cr</td>
+            <td class="red">Mn</td>
+            <td class="red">Fe</td>
+            <td class="red">Co</td>
+            <td class="red">NI</td>
+            <td class="red">Cu</td>
+            <td class="red">Zn</td>
+            <td class="G13">Ga</td>
+            <td class="B13">Ge</td>
+            <td class="B13">As</td>
+            <td class="NM">Se</td>
+            <td class="G17">Br</td>
+            <td class="Nobel">Kr</td>
+        </tr>
+        <tr>
+            <td class="first">Rb</td>
+            <td class="second">Sr</td>
+            <td class="red">Zr</td>
+            <td class="red">Y</td>
+            <td class="red">Nb</td>
+            <td class="red">Mo</td>
+            <td class="red">Tc</td>
+            <td class="red">Ru</td>
+            <td class="red">Rh</td>
+            <td class="red">Pd</td>
+            <td class="red">Ag</td>
+            <td class="red">Cd</td>
+            <td class="G13">In</td>
+            <td class="G13">Sn</td>
+            <td class="B13">Sb</td>
+            <td class="B13">Te</td>
+            <td class="G17">I</td>
+            <td class="Nobel">Xe</td>
+        </tr>
+        <tr>
+            <td class="first">Cs</td>
+            <td class="second">Ba</td>
+            <td class="lathnide"><sup>57.71</sup></td>
+            <td class="red">Hf</td>
+            <td class="red">Ta</td>
+            <td class="red">W</td>
+            <td class="red">Re</td>
+            <td class="red">Os</td>
+            <td class="red">Ir</td>
+            <td class="red">Pt</td>
+            <td class="red">Au</td>
+            <td class="red">Hg</td>
+            <td class="G13">TI</td>
+            <td class="G13">Pb</td>
+            <td class="G13">Bi</td>
+            <td class="B13">Po</td>
+            <td class="G17">At</td>
+            <td class="Nobel">Rn</td>
+        </tr>
+        <tr>
+            <td class="first">Fr</td>
+            <td class="second">Ra</td>
+            <td class="Actride"><sup>89.103</sup></td>
+            <td class="red">Rf</td>
+            <td class="red">Db</td>
+            <td class="red">Sg</td>
+            <td class="red">Bh</td>
+            <td class="red">Hs</td>
+            <td class="red">Mt</td>
+            <td class="red">Ds</td>
+            <td class="red">Rg</td>
+            <td class="red">Cn</td>
+            <td class="NH">Nh</td>
+            <td class="NH">Fl</td>
+            <td class="NH">Mc</td>
+            <td class="NH">Lv</td>
+            <td class="NH">Ts</td>
+            <td class="NH">Og</td>
+        </tr>
+        <tr class="margin">
+            <td  class="right  hidden" colspan="2" ></td>
+            <td class="lathnide">la</td>
+            <td class="lathnide">Ce</td>
+            <td class="lathnide">Pr</td>
+            <td class="lathnide">Nd</td>
+            <td class="lathnide">Pm</td>
+            <td class="lathnide">Sm</td>
+            <td class="lathnide">Eu</td>
+            <td class="lathnide">Gd</td>
+            <td class="lathnide">Tb</td>
+            <td class="lathnide">Dy</td>
+            <td class="lathnide">Ho</td>
+            <td class="lathnide">Er</td>
+            <td class="lathnide">Tm</td>
+            <td class="lathnide">Yb</td>
+            <td class="lathnide">Lu</td>
+        </tr>
+        <tr >
+            <td class="right hidden"colspan="2"></td>
+            <td class="Actride">Ac</td>
+            <td class="Actride">Th</td>
+            <td class="Actride">Pa</td>
+            <td class="Actride">U</td>
+            <td class="Actride">Hp</td>
+            <td class="Actride">Pu</td>
+            <td class="Actride">Am</td>
+            <td class="Actride">Cm</td>
+            <td class="Actride">Bk</td>
+            <td class="Actride">Cf</td>
+            <td class="Actride">Es</td>
+            <td class="Actride">Fm</td>
+            <td class="Actride">Md</td>
+            <td class="Actride">No</td>
+            <td class="Actride">Lr</td>
+        </tr>
+        </table>
+    </div>
+</body>
+</html>
